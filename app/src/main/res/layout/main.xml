@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/bsay"
+            android:textSize="20sp"
+            android:text="Read the text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bsave"
+            android:textSize="20sp"
+            android:text="Save onto audio file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText android:id="@+id/ettext"
+        android:text="This is just a test for demonstrating the text-to-speech engine in Google's Android.  It has multi-lingual support as well as file-based speech synthesis."
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+</LinearLayout>
